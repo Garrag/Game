@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-mobile",groupList:["default","game"],collisionMatrix:[[true],[false,false]],hasResourcesBundle:false,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/DontStepOn/Scenes/MainScene.fire",orientation:"portrait",jsList:[]};

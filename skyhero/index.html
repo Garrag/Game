@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | SkyHero</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 1280px; height: 720px; background: #231F20"></canvas>
+    <script src="Build/skyhero.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/skyhero.data.unityweb",
+        frameworkUrl: "Build/skyhero.framework.js.unityweb",
+        codeUrl: "Build/skyhero.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Garrag",
+        productName: "SkyHero",
+        productVersion: "0.0.1",
+      });
+    </script>
+  </body>
+</html>
