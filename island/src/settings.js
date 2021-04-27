@@ -1,1 +1,1 @@
-window._CCSettings={platform:"web-mobile",groupList:["default","game"],collisionMatrix:[[true],[false,false]],hasResourcesBundle:false,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/DragMatch/Scenes/DragMatchGame.fire",orientation:"portrait",jsList:[]};
+window._CCSettings={platform:"web-mobile",groupList:["default","game"],collisionMatrix:[[true],[false,false]],hasResourcesBundle:false,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/DragMatch/DragMatchGame.fire",orientation:"portrait",jsList:[]};
